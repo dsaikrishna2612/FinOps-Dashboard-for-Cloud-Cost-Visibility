@@ -26,4 +26,4 @@ scripts/: Python scripts for data collection and alerts
 
 grafana/: Dashboard configuration
 
-dashboard_screenshots/: Visual proof of dashboard
+
