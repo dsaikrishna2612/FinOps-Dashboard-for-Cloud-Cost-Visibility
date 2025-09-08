@@ -1,0 +1,70 @@
+📄 Project Report: FinOps Dashboard for Cloud Cost Visibility
+Name: Donakonda Sai Krishna Date: September 2025 Project Title: Building a FinOps Dashboard to Monitor Cloud Usage and Free-Tier Breaches
+
+1. Introduction
+Cloud computing offers flexibility and scalability, but managing costs—especially under free-tier limits—is critical for individuals and startups. This project aimed to build a FinOps dashboard that tracks cloud usage and alerts users when services approach or exceed free-tier thresholds. The solution integrates AWS Cost Explorer API, Python scripts, SQLite, and Grafana.
+
+2. Objectives
+Fetch daily cloud usage and cost data using AWS API
+
+Store and analyze data in a local SQLite database
+
+Visualize trends and alerts using Grafana
+
+Implement logic to detect free-tier breaches
+
+3. Tools & Technologies
+AWS Cost Explorer API: For retrieving usage and cost data
+
+Python: For scripting and automation
+
+SQLite: For lightweight local data storage
+
+Grafana: For dashboard visualization and alerting
+
+4. Implementation
+Enabled AWS Cost Explorer and configured access credentials
+
+Developed Python scripts to:
+
+Fetch daily usage and cost data
+
+Store data in SQLite database
+
+Analyze usage trends and flag risky services
+
+Created Grafana dashboards to visualize:
+
+Daily usage trends
+
+Estimated monthly costs
+
+Alerts for services nearing free-tier limits
+
+Exported dashboard JSON and captured screenshots
+
+5. Challenges
+Handling API rate limits and pagination in AWS responses
+
+Integrating SQLite with Grafana for real-time visualization
+
+Designing meaningful alert logic based on service thresholds
+
+6. Results
+Built a working FinOps dashboard with real-time data
+
+Successfully flagged services at risk of breaching free-tier limits
+
+Enabled proactive cost management and visibility
+
+Documented the entire workflow and dashboard setup
+
+7. Learnings
+Gained practical experience with cloud cost APIs and data visualization
+
+Understood the importance of FinOps in cloud governance
+
+Learned how to automate cost tracking and alerting
+
+8. Conclusion
+This project highlighted the intersection of DevOps and financial operations (FinOps). By building a cost visibility dashboard, I developed skills in cloud monitoring, data analysis, and alerting systems. These capabilities are essential for optimizing cloud spend and ensuring sustainable usage.
